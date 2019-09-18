@@ -10,4 +10,4 @@ ruby_version = "2.5.6"
   [[publish.Vendor]]
   url = "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/ruby.tgz"
   dir = "."
-  files = ["-T","./pew"]
+  files = ["-vvvv","./.env"]
