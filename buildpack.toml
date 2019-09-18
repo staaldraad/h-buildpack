@@ -1,0 +1,17 @@
+[buildpack]
+name = "h-buildpack"
+
+  [publish.Ignore]
+  files = [
+    "test/",
+    "sbin/",
+    "file-cache/",
+    ".gitignore",
+    ".travis.yml",
+    "Makefile"
+  ]
+
+  [publish.Vendor]
+  url = "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/ruby.tgz"
+  dir = "."
+  files = [".env"]
