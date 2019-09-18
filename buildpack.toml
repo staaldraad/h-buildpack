@@ -1,16 +1,13 @@
 [buildpack]
-name = "h-buildpack"
+name = "Ruby"
+ruby_version = "2.5.6"
 
   [publish.Ignore]
   files = [
-    "test/",
-    "sbin/",
-    "file-cache/",
-    ".gitignore",
-    ".travis.yml",
-    "Makefile"
+    "spec/"
   ]
 
-  [publish.Vendor]
+  [[publish.Vendor]]
   url = "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/ruby.tgz"
   dir = "."
+  files = ["./.env"]
