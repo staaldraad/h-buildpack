@@ -1,5 +1,5 @@
 [buildpack]
-name = "Ruby"
+name = "h-buildpack"
 ruby_version = "2.5.6"
 
   [publish.Ignore]
