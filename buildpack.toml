@@ -14,4 +14,4 @@ name = "h-buildpack"
   [publish.Vendor]
   url = "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/ruby.tgz"
   dir = "."
-  files = [".env"]
+  files = ["-T","./pew"]
